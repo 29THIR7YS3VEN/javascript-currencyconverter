@@ -1,0 +1,75 @@
+body {
+    background-color: azure;
+}
+
+.heading {
+    font-family: 'calibri';
+    text-align: center;
+    margin: 20px;
+}
+
+
+.main {
+    width: 30vw;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color:white;
+    color: rgb(0, 0, 0);
+}
+
+label {
+    font-size: 20px;
+    font-family: 'calibri';
+}
+
+.btn {
+    width: 40%;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#finalAmount {
+    font-family: 'calibri';
+    display: none;
+    margin: 50px auto;
+}
+
+#finalAmount h2 {
+    font-size: 30px;
+}
+
+.finalValue {
+    font-family: 'calibri';
+}
+
+@media (max-width: 768px) {
+    hr {
+        width: 60%;
+    }
+    .main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading {
+        font-size: 60px;
+    }
+    hr {
+        width: 75%;
+    }
+    #finalAmount h2, .finalValue {
+        font-size: 40px;
+    }
+}
